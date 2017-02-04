@@ -1,0 +1,12 @@
+GetNewFactIntent sage ein Zitat von Goethe
+GetNewFactIntent sage ein Zitat von Göthe
+GetNewFactIntent sage ein Zitat von Göte
+GetNewFactIntent sage ein Goethe Zitat
+GetNewFactIntent sage ein Göthe Zitat
+GetNewFactIntent sage ein Göte Zitat
+GetNewFactIntent erzähle ein Zitat von Goethe
+GetNewFactIntent erzähle ein Zitat von Göthe
+GetNewFactIntent erzähle ein Zitat von Göte
+GetNewFactIntent erzähle ein Goethe Zitat
+GetNewFactIntent erzähle ein Göthe Zitat
+GetNewFactIntent erzähle ein Göte Zitat
