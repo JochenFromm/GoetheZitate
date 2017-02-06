@@ -49,6 +49,18 @@ const languageStrings = {
     },
 };
 
+function getQuoteForKeyword(quotes, keyword) {
+    var index, value, result;
+    for (index = 0; index < quotes.length; ++index) {
+        value = quotes[index];
+        if (value.includes(keyword)) {
+            result = value;
+            break;
+        }
+    }
+    return result;
+}
+
 const handlers = {
     'LaunchRequest': function () {
         this.emit('GetFact');
@@ -56,15 +68,7 @@ const handlers = {
     'GetNewFactIntentWithSlots': function () {
         var keyword = this.event.request.intent.slots.keyword.value;
         if (keyword != undefined) {
-            const quotes = this.t('QUOTES');
-            var index, value, result;
-            for (index = 0; index < quotes.length; ++index) {
-                value = quotes[index];
-                if (value.includes(keyword)) {
-                    result = value;
-                    break;
-                }
-            }
+            const result = getQuoteForKeyword(this.t('QUOTES'), keyword);
             var speechOutput;
             if (result != undefined) {
               speechOutput = "Hier ist ein Goethe Zitat zum Thema "+keyword+": "+result; 
