@@ -12,7 +12,7 @@
 
 const Alexa = require('alexa-sdk');
 
-const APP_ID = 'goethe_zitat';
+const APP_ID = 'amzn1.ask.skill.6d5c92b2-93ff-41ab-a526-e0d3bec2dcf5';
 
 const languageStrings = {
     'de-DE': {
