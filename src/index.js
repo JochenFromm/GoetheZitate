@@ -54,7 +54,7 @@ const handlers = {
         this.emit('GetFact');
     },
     'GetFact': function () {
-        // Get a random space fact from the space facts list
+        // Get a quote from the list
         // Use this.t() to get corresponding language data
         const factArr = this.t('FACTS');
         const factIndex = Math.floor(Math.random() * factArr.length);
