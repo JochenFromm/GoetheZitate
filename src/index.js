@@ -17,7 +17,10 @@ const APP_ID = 'amzn1.ask.skill.6d5c92b2-93ff-41ab-a526-e0d3bec2dcf5';
 const languageStrings = {
     'de-DE': {
         translation: {
-            FACTS: [
+            QUOTES: [
+                'Sonne kann nicht ohne Schein, Mensch nicht ohne Liebe sein.',
+                'Heut ist mir alles herrlich; wenns nur bliebe. Ich sehe heut durchs Augenglas der Liebe.',
+                'Auf diesem beweglichen Erdball ist doch nur in der wahren Liebe, der Wohltätigkeit und den Wissenschaften die einzige Freude und Ruhe.',
                 'Es hört doch jeder nur, was er versteht.',
                 'Es ist nicht genug zu wissen - man muss auch anwenden. Es ist nicht genug zu wollen - man muss auch tun.',
                 'Auch aus Steinen, die einem in den Weg gelegt werden, kann man Schönes bauen.',
@@ -50,15 +53,36 @@ const handlers = {
     'LaunchRequest': function () {
         this.emit('GetFact');
     },
+    'GetNewFactIntentWithSlots': function () {
+        var keyword = this.event.request.intent.slots.keyword.value;
+        if (keyword != undefined) {
+            const quotes = this.t('QUOTES');
+            var index, value, result;
+            for (index = 0; index < quotes.length; ++index) {
+                value = quotes[index];
+                if (value.includes(keyword)) {
+                    result = value;
+                    break;
+                }
+            }
+            var speechOutput;
+            if (result != undefined) {
+              speechOutput = "Hier ist ein Goethe Zitat zum Thema "+keyword+": "+result; 
+            } else {
+              speechOutput = "Ich konnte kein Zitat zum Thema "+keyword+" finden" 
+            }
+            this.emit(':tellWithCard', speechOutput);
+        }
+    },
     'GetNewFactIntent': function () {
         this.emit('GetFact');
     },
     'GetFact': function () {
         // Get a quote from the list
         // Use this.t() to get corresponding language data
-        const factArr = this.t('FACTS');
-        const factIndex = Math.floor(Math.random() * factArr.length);
-        const randomFact = factArr[factIndex];
+        const quotes = this.t('QUOTES');
+        const factIndex = Math.floor(Math.random() * quotes.length);
+        const randomFact = quotes[factIndex];
 
         // Create speech output
         const speechOutput = this.t('GET_FACT_MESSAGE') + randomFact;

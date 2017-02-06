@@ -1,7 +1,16 @@
 {
   "intents": [
   {
-    "intent": "GetNewFactIntent"
+    "intent": "GetNewFactIntent", "slots": []
+  },
+  {
+    "intent": "GetNewFactIntentWithSlots",
+    "slots": [
+      {
+        "name": "keyword",
+        "type": "KEYWORD"
+      }
+    ]
   },
   {
     "intent": "AMAZON.HelpIntent"
