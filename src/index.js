@@ -38,7 +38,7 @@ const languageStrings = {
                 'Wo viel Licht ist, ist auch viel Schatten.'
             ],
             SKILL_NAME: 'Goethe Zitate auf Deutsch',
-            GET_FACT_MESSAGE: 'Hier ist ein Zitat: ',
+            GET_FACT_MESSAGE: 'Johann Wolfgang von Goethe sagt: ',
             HELP_MESSAGE: 'Du kannst sagen, „Nenne mir ein Goethe Zitat“, oder du kannst „Beenden“ sagen... Wie kann ich dir helfen?',
             HELP_REPROMPT: 'Wie kann ich dir helfen?',
             STOP_MESSAGE: 'Auf Wiedersehen!',
