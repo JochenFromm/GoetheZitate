@@ -5,8 +5,7 @@ const _ = require('lodash');
 
 function getRandomQuote(quotes) {
   var index = Math.floor(Math.random() * quotes.length);
-  var result = quotes[index];
-  return result;
+  return quotes[index];
 }
 
 function getQuoteForKeyword(quotes, keyword) {
