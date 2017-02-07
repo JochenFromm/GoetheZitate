@@ -1,5 +1,7 @@
 quotes = [
   'Sonne kann nicht ohne Schein, Mensch nicht ohne Liebe sein.',
+  'Glücklich allein ist die Seele, die liebt.',
+  'Hast du einen Menschen gern, so musst du ihn verstehn. Musst nicht immer hier und da, seine Fehler sehn. Schau mit Liebe und Verzeih, denn am Ende bist du selbst nicht fehlerfrei.',
   'Heut ist mir alles herrlich; wenns nur bliebe. Ich sehe heut durchs Augenglas der Liebe.',
   'Auf diesem beweglichen Erdball ist doch nur in der wahren Liebe, der Wohltätigkeit und den Wissenschaften die einzige Freude und Ruhe.',
   'Es hört doch jeder nur, was er versteht.',

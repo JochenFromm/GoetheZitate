@@ -3,7 +3,7 @@ describe("data", function() {
 
   describe("German quotes", function() {
     it("contains lots of quotes", function() {
-      expect(quotes.length).toBe(33);
+      expect(quotes.length).toBe(35);
     });
   });
 });
