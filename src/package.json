@@ -1,0 +1,21 @@
+{
+  "name": "goethe-zitate-alexa-skill",
+  "version": "1.0.0",
+  "description": "German Quotes from the famous poet.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "jasmine-node spec/"
+  },
+  "keywords": [
+    "alexa",
+    "skill",
+    "fact"
+  ],
+  "author": "Jochen Fromm",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "alexa-sdk": "^1.0.6",
+    "lodash": "^4.17.4"
+  }
+}

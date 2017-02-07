@@ -1,9 +1,15 @@
-GetNewFactIntent sage ein Zitat von Goethe
-GetNewFactIntent sage ein Zitat von Göthe
-GetNewFactIntent sage ein Zitat von Göte
-GetNewFactIntent sage ein Goethe Zitat
-GetNewFactIntent sage ein Göthe Zitat
-GetNewFactIntent sage ein Göte Zitat
+GetNewFactIntent starte ein Zitat von Goethe
+GetNewFactIntent starte ein Zitat von Göthe
+GetNewFactIntent starte ein Zitat von Göte
+GetNewFactIntent starte ein Goethe Zitat
+GetNewFactIntent starte ein Göthe Zitat
+GetNewFactIntent starte ein Göte Zitat
+GetNewFactIntent öffne ein Zitat von Goethe
+GetNewFactIntent öffne ein Zitat von Göthe
+GetNewFactIntent öffne ein Zitat von Göte
+GetNewFactIntent öffne ein Goethe Zitat
+GetNewFactIntent öffne ein Göthe Zitat
+GetNewFactIntent öffne ein Göte Zitat
 GetNewFactIntentWithSlots sage ein Goethe Zitat zum Thema {keyword}
 GetNewFactIntentWithSlots sage ein Göthe Zitat zum Thema {keyword}
 GetNewFactIntentWithSlots sage ein Göte Zitat zum Thema {keyword}
