@@ -16,10 +16,22 @@ quotes = [
   'Alles auf der Welt kommt auf einen gescheiten Einfall und auf einen festen Entschluss an.',
   'Mir gäb es keine größre Pein, Wär ich im Paradies allein.',
   'Wer nicht neugierig ist, erfährt nichts!',
-  'Auch aus Steinen, die einem in den Weg gelegt werden, kann man Schönes bauen.',
   'Die beste Bildung findet ein gescheiter Mensch auf Reisen.',
   'Niemand weiß, wie weit seine Kräfte gehen, bis er sie versucht hat.',
-  'Wo viel Licht ist, ist auch viel Schatten.'
+  'Wo viel Licht ist, ist auch viel Schatten.',
+  'Die Kunst ist lang. Und kurz ist unser Leben.',
+  'Ein guter Mensch in seinem dunklen Drange, Ist sich des rechten Weges wohl bewusst.',
+  'Es irrt der Mensch, solang er strebt.',
+  'Gewöhnlich glaubt der Mensch, wenn er nur Worte hört, Es müsse sich dabei doch auch was denken lassen.',
+  'Mit Worten lässt sich trefflich streiten.',
+  'Was glänzt, ist für den Augenblick geboren; Das Echte bleibt der Nachwelt unverloren.',
+  'Wenn ich sechs Hengste zahlen kann, sind ihre Kräfte nicht die meine? Ich renne zu und bin ein rechter Mann, als hätt ich vierundzwanzig Beine',
+  'Die Hoffnung hilft uns leben.',
+  'Der Widerspruch ist es, der uns produktiv macht.',
+  'Jedem redlichen Bemühn, Sei Beharrlichkeit verliehn',
+  'Das wahre Glück ist die Genügsamkeit.',
+  'Es bildet ein Talent sich in der Stille, ein Charakter in dem Strom der Welt',
+  'Aus vielen Skizzen endlich ein Ganzes hervorzubringen, gelingt selbst den Besten nicht immer'
 ]
 
 module.exports = quotes;
