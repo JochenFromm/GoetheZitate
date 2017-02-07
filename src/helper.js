@@ -8,10 +8,14 @@ function getRandomQuote(quotes) {
   return quotes[index];
 }
 
-function getQuoteForKeyword(quotes, keyword) {
-  var filtered_quotes = _.filter(quotes, function(val) {
+function filterList(quotes, keyword) {
+  return _.filter(quotes, function(val) {
     return _.includes(val, keyword);
   });
+}
+
+function getQuoteForKeyword(quotes, keyword) {
+  var filtered_quotes = filterList(quotes, keyword)
   return getRandomQuote(filtered_quotes);
 }
 
