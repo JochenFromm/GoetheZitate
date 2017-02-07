@@ -9,3 +9,11 @@ https://github.com/alexa/skill-sample-nodejs-fact
 
 ..and the Alexa Skills Kit SDK for Node.js
 https://github.com/alexa/alexa-skills-kit-sdk-for-nodejs
+
+## Deployment
+
+Deploy with `./deploy.sh`
+
+## Test
+
+Test with `jasmine`

@@ -1,25 +1,30 @@
 {
-  "name": "goethe-zitate-alexa-skill",
+  "name": "goethe_zitate",
   "version": "1.0.0",
-  "description": "German Quotes from the famous poet.",
-  "main": "index.js",
+  "description": "Alexa Skill",
+  "main": "src/index.js",
   "scripts": {
-    "start": "node src/index.js",
-    "test": "jasmine-node spec/"
+    "test": "jasmine"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JochenFromm/GoetheZitate.git"
   },
   "keywords": [
     "alexa",
-    "skill",
-    "fact"
+    "skill"
   ],
   "author": "Jochen Fromm",
   "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/JochenFromm/GoetheZitate/issues"
+  },
+  "homepage": "https://github.com/JochenFromm/GoetheZitate#readme",
   "dependencies": {
-    "alexa-sdk": "^1.0.6"
+    "alexa-sdk": "^1.0.6",
+    "lodash": "^4.17.4"
   },
   "devDependencies": {
-    "htmlparser2": "^3.9.2",
-    "jasmine-node": "^1.14.5",
-    "underscore": "^1.8.3"
+    "jasmine": "^2.5.3"
   }
 }
